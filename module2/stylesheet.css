@@ -1,0 +1,85 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: window;
+}
+.container {
+    margin:10px;
+}
+
+h1{
+    width:100%;
+    font-family: "TimesNewRoman",Times,serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+.green{
+    background-color: greenyellow;
+}
+
+.red{
+    background-color:red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+@media (min-width : 992px){
+.col-lg-4 {
+    width: 33.3%;
+    float: left;
+    padding: 3px 3px;
+}
+}
+
+@media (min-width:768px) and (max-width:991px){
+.col-sm-6 {
+    width: 50%;
+    float: left;
+    padding: 3px 3px;
+}
+
+.col-sm-12 {
+    width: 100%;
+    float: left;
+    padding: 3px 3px;
+}
+}
+
+@media (max-width:767px){
+.col-xs-12 {
+    width: 100%;
+    float: left;
+    padding: 3px 3px;
+}
+}
+
+.divcont{
+    border:black solid 1px;
+    background-color: azure;
+}
+
+.phead{
+    width:30%;
+    float: right;
+    border:black solid 1px;
+    font-family: "Lucida Handwriting",monospace,sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    overflow: auto
+}
+
+.pcontent {
+    clear:both;
+    margin:3px;
+    padding: 3px;
+    font-family: "Poor Richard",monospace,sans-serif;
+    font-size: 1.3em;
+}

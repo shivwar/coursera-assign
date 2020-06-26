@@ -1,0 +1,35 @@
+.size-lg {
+    font-size: 3.3em;
+    font-family:"Times New Roman", Times, serif;
+    color: red; 
+    
+}
+
+.heading {
+    font-size: 2em;
+    font-family: Georgia, serif;
+    font-weight: 700;
+    margin:0px auto 10px;
+}
+
+.container .panel{
+    text-align: center;
+    padding:15px;
+} 
+
+.panel-heading{
+    font-size:1.7em;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    background-color: lightgrey;
+}
+.panel-body{
+    font-size:1.1em;
+    font-family:Tahoma, Geneva, sans-serif;
+    background-color: lightgray;
+}
+
+.wide{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
